@@ -258,7 +258,8 @@ $env:PERCY_TOKEN="YOUR_TOKEN"
 ```bash
 npx percy exec -- cypress run
 ```
-<img width="760" height="610" alt="image" src="https://github.com/user-attachments/assets/0537eee6-9f33-4515-8393-a1a430e6f82f" />
+<img width="766" height="617" alt="image" src="https://github.com/user-attachments/assets/fcaa7766-598b-425c-9f3d-525c6cff2d25" />
+
 
 ---
 
