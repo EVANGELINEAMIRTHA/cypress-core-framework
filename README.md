@@ -258,6 +258,7 @@ Open report:
 ```bash
 allure open allure-report
 ```
+<img width="1366" height="768" alt="image" src="https://github.com/user-attachments/assets/6e1d3e16-41d1-460e-90ae-fc62db14314a" />
 
 ---
 
