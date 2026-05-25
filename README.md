@@ -1,4 +1,5 @@
 # 🚀 Cypress Core Automation Framework
+![Cypress Tests](https://github.com/EVANGELINEAMIRTHA/cypress-core-framework/actions/workflows/cypress.yml/badge.svg)
 
 A scalable, AI-aware end-to-end automation framework built using Cypress, JavaScript, API Testing, POM Architecture, Visual Regression Testing, and CI/CD practices.
 
