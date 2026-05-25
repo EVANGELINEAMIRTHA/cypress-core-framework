@@ -20,7 +20,6 @@ class SignupPage {
     cy.get('button[data-qa="create-account"]').click();
   }
   setupMockExistingEmail() { cy.intercept('POST', '**/signup', { statusCode: 400, body: { error: 'Exists' } }).as('initialSignupCheck'); }
-  setupMockSignupServerCrash() { cy.intercept('POST', '**/signup', { statusCode: 500, body: { error: 'Crash' } }).as('createAccountDBCall'); }
   verifySignupFailure(alias, status) { cy.wait(`@${alias}`).its('response.statusCode').should('eq', status); }
   verifyAccountCreated() { cy.get('[data-qa="account-created"]', { timeout: 12000 }).should('be.visible'); }
 }

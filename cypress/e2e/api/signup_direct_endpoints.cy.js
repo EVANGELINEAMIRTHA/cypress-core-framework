@@ -56,7 +56,8 @@ describe('Direct Signup Endpoint Testing (Clean Fixture Inheritance)', () => {
       body: {
         name: existingData.name,
         email: existingData.email, // Using the pre-existing email asset
-        password: 'Password999!',
+        // Use fixture-provided password instead of a hard-coded secret
+        password: baseData.password,
         title: 'Mrs',
         birth_date: '10',
         birth_month: 'May',
