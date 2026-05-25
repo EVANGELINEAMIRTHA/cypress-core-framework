@@ -1,0 +1,47 @@
+{
+  "loginUser": {
+    "email": "test1779467604992@gmail.com",
+    "password": "Test@123"
+  },
+  "invalidLoginUser": {
+    "email": "wrong_user@gmail.com",
+    "password": "WrongPassword123"
+  },
+  "checkoutData": {
+    "name": "Test User",
+    "cardNumber": "4111111111111111",
+    "cvc": "123",
+    "month": "12",
+    "year": "2026"
+  },
+  "expiredCardData": {
+    "name": "Test User",
+    "cardNumber": "4111111111111111",
+    "cvc": "123",
+    "month": "01",
+    "year": "2020"
+  },
+  "signupUser": {
+    "name": "Evangeline QA",
+    "password": "Test@123",
+    "firstName": "Evangeline",
+    "lastName": "Amirtha",
+    "address": "Bangalore",
+    "country": "India",
+    "state": "Karnataka",
+    "city": "Bangalore",
+    "zipcode": "560001",
+    "mobileNumber": "9876543210"
+  },
+  "signupUserExistingEmail": {
+    "name": "Duplicate User",
+    "email": "test1779467604992@gmail.com"
+  },
+  "signupUserMissingRequired": {
+    "name": "Incomplete User",
+    "email": "incomplete@gmail.com",
+    "password": "",
+    "firstName": "",
+    "lastName": ""
+  }
+}

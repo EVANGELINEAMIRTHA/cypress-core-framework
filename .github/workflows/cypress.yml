@@ -1,0 +1,35 @@
+name: Cypress CI/CD Pipeline
+on: 
+  push:
+    branches: [ main ]
+  pull_request:
+    branches: [ main ]
+
+jobs:
+  cypress-run:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Checkout Repository
+        uses: actions/checkout@v4
+
+      - name: Install Node Dependencies
+        run: npm install
+
+      - name: Execute Tests with Percy
+        uses: cypress-io/github-action@v6
+        with:
+          browser: chrome
+          headless: true
+          # This command combines functional testing and visual AI snapshots
+          command: npx percy exec -- npx cypress run
+        env:
+          PERCY_TOKEN: ${{ secrets.PERCY_TOKEN }}
+
+      - name: Archive Test Artifacts (Evidence)
+        uses: actions/upload-artifact@v4
+        if: failure() # This only runs if a test fails
+        with:
+          name: cypress-failure-evidence
+          path: |
+            cypress/screenshots
+            cypress/videos
