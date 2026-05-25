@@ -6,7 +6,7 @@ A scalable, AI-aware end-to-end automation framework built using Cypress, JavaSc
 Designed to align with modern SDET expectations and enterprise QA engineering standards including UI testing, API validation, integration testing, AI-enabled testing concepts, and automation framework scalability.
 
 [Click here to view my Automation Framework](https://github.com/EVANGELINEAMIRTHA/cypress-core-framework)
-### 🎥 Test Execution Video
+
 [Click here to watch the Test Execution on Google Drive](https://drive.google.com/file/d/102daoQFSwaixdyVLS1k8e-t29J6eK2Uf/view?usp=sharing)
 ---
 
