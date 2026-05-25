@@ -252,7 +252,9 @@ npx cypress run
 ---
 
 # ▶️ Run Percy Visual Tests
-
+```bash
+$env:PERCY_TOKEN="YOUR_TOKEN"
+```
 ```bash
 npx percy exec -- cypress run
 ```
