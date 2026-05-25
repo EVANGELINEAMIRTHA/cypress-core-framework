@@ -269,6 +269,7 @@ https://percy.io/7e683e4d/web/cypress-core-framework-1950a76a/builds/50100201/ch
 ---
 
 # ▶️ Generate Allure Report
+![Allure](https://img.shields.io/badge/License-MIT-blue.svg)
 
 ```bash
 allure generate allure-results --clean -o allure-report
