@@ -259,7 +259,7 @@ $env:PERCY_TOKEN="YOUR_TOKEN"
 npx percy exec -- cypress run
 ```
 <img width="766" height="617" alt="image" src="https://github.com/user-attachments/assets/fcaa7766-598b-425c-9f3d-525c6cff2d25" />
-
+https://percy.io/7e683e4d/web/cypress-core-framework-1950a76a/builds/50100201/changed/2689826558?browser=edge&browser_ids=63%2C73%2C74%2C76&currentBuildItemIndex=2&group_snapshots_by=similar_diff&selectErrorBucket=true&subcategories=unreviewed%2Cchanges_requested&viewLayout=side-by-side&viewMode=new&width=1280&widths=375%2C1280
 
 ---
 
