@@ -9,17 +9,29 @@ Designed to align with modern SDET expectations and enterprise QA engineering st
 # 📌 Project Highlights
 
 ✅ End-to-End UI Automation
+
 ✅ API Testing with `cy.request()`
+
 ✅ Page Object Model (POM) Architecture
+
 ✅ Data-Driven Testing using Fixtures
+
 ✅ Custom Cypress Commands
+
 ✅ Session Handling with `cy.session()`
+
 ✅ Network Intercepts & API Synchronization
+
 ✅ Percy Visual Regression Testing
+
 ✅ Allure Reporting Integration
+
 ✅ GitHub Actions CI/CD Pipeline
+
 ✅ Hybrid UI + API Integration Testing
+
 ✅ Smart Synchronization & Flaky Test Reduction
+
 ✅ AI-Testing Awareness & Self-Healing Concepts
 
 ---
